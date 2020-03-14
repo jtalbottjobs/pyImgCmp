@@ -85,7 +85,7 @@ def test_compareImages_5():
         cv2.waitKey(0)
         cv2.imshow('b', b)
         cv2.waitKey(0)
-    print(f"Difference between sunet and sunsetspam {pyImgCmp.compareImages(a,b)}")
+    print(f"Difference between sunset and sunsetspam {pyImgCmp.compareImages(a,b)}")
 
 def test_compareImages_6():
     a = "tests\\sunset.jpg"
@@ -95,4 +95,4 @@ def test_compareImages_6():
         cv2.waitKey(0)
         cv2.imshow('b', b)
         cv2.waitKey(0)
-    print(f"Difference between sunet and sunset2 {pyImgCmp.compareImages(a,b)}")
+    print(f"Difference between sunset and sunset2 {pyImgCmp.compareImages(a,b)}")
